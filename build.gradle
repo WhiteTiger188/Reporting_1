@@ -26,9 +26,7 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok:1.18.22'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.22'
     testImplementation 'io.qameta.allure:allure-selenide:2.16.1'
-    testImplementation 'io.qameta.allure:allure-junit5:2.16.1'
-    testCompileOnly 'io.qameta.allure:allure-junit5:2.17.1'
-    testRuntimeOnly 'io.qameta.allure:allure-junit5:2.17.1'
+    testImplementation 'io.qameta.allure:allure-junit5:2.16.1'   
 }
 
 test {
